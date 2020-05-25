@@ -15,7 +15,7 @@ function askQuestion(question) {
         rl.question(question, (ans) => {
             resolve(ans);
         })
-    });
+    }); 
 }
 
 

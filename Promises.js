@@ -22,7 +22,7 @@ async function Program() {
     //     console.log(error.message);
     // });
 
-    let myresult = await wait(1000);
+    let myresult = await wait(1000); 
     console.log(myresult);
 }
 

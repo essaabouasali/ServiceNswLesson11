@@ -23,7 +23,7 @@ describe("testing the numbers module", () => {
             expect(addNumbers("-12", 14)).to.eql(2);
         });
         it("should throw an error when no numbers are passed in", () => {
-            expect(() => addNumbers()).to.throw();
+            expect(() => addNumbers()).to.throw(); 
         });
         it("should throw an error when one number is passed in", () => {
             expect(() => addNumbers(1)).to.throw();
